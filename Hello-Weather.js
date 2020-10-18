@@ -675,7 +675,7 @@ if (hour >= 5  && hour < 11 ) {greeting = localizedText.morningGreeting;}
 if (hour >= 11 && hour < 13 ) {greeting = localizedText.noonGreeting;} 
 if (hour >= 13 && hour < 17 ) {greeting = localizedText.afternoonGreeting;} 
 if (hour >= 17 && hour < 22 ) {greeting = localizedText.eveningGreeting;} 
-if (hour >= 22 && hoor < 23 ) {greeting = localizedText.nightGreeting;} 
+if (hour >= 22 && hour < 23 ) {greeting = localizedText.nightGreeting;} 
 
 // Overwrite greeting if calculated holiday
 // 如果是特定假期,则使用假期问候语
